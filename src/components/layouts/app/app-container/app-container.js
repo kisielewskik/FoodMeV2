@@ -2,11 +2,11 @@ import { Main, StyledAppContainer } from './app-container-styled';
 import { Footer } from './footer';
 import { Header } from './header';
 
-const AppContainer = () => {
+const AppContainer = ({ children }) => {
   return (
     <StyledAppContainer>
       <Header />
-      <Main>test</Main>
+      <Main>{children}</Main>
       <Footer />
     </StyledAppContainer>
   );

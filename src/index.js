@@ -12,7 +12,7 @@ ReactDOM.render(
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <App />
+        <App> TEST </App>
       </ThemeProvider>
     </QueryClientProvider>
   </React.StrictMode>,
