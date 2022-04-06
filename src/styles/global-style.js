@@ -1,11 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+
+  * {
+    box-sizing: border-box;
+  }
+
   body {
     background: ${({ theme: { color } }) => color.grey500};
-    overflow-x: hidden;
     overscroll-behavior: none;
-    color: ${({ theme }) => theme.color.black100};
+    color: ${({ theme }) => theme.color.mainPurple};
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding:0;
@@ -15,6 +19,4 @@ export const GlobalStyle = createGlobalStyle`
   a {
     transition: .5s;
     cursor: pointer;
-    color: ${({ theme }) => theme.color.white};
-    text-decoration: none;
   }`;
