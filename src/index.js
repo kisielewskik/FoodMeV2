@@ -1,9 +1,9 @@
+import { App } from 'components/layouts/app';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from 'styles';
-import { App } from 'views';
 
 const queryClient = new QueryClient();
 

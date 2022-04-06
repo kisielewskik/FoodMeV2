@@ -6,8 +6,10 @@ export const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     overscroll-behavior: none;
     color: ${({ theme }) => theme.color.black100};
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    padding:0;
+    margin:0;
   }
 
   a {

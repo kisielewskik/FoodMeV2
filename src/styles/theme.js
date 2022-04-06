@@ -1,6 +1,7 @@
 export const theme = {
-  fontFamily: 'Lato, sans-serif',
+  fontFamily: 'Roboto, sans-serif',
   color: {
+    mainYellow: '#FECD45',
     black: '#000000',
     black100: '#212121',
     black200: '#262626',
@@ -27,7 +28,6 @@ export const theme = {
     pink: 'rgba(255, 73, 73, 0.15)',
     validationRed: '#FFE0DE',
     availableGreen: '#19AC1E',
-    waitingEvYellow: '#FFBC04',
     grid_tariff: {
       blue50: '#DCEEFF',
       blue100: '#3081F0',
