@@ -1,10 +1,9 @@
-import { App } from 'components/layouts/app';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import Routing from 'routes';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from 'styles';
-import { Home } from 'views';
 
 const queryClient = new QueryClient();
 
@@ -13,9 +12,7 @@ ReactDOM.render(
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <App>
-          <Home />
-        </App>
+        <Routing />
       </ThemeProvider>
     </QueryClientProvider>
   </React.StrictMode>,

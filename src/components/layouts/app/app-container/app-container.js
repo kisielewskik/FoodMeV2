@@ -1,12 +1,15 @@
+import { Outlet } from 'react-router';
 import { Main, StyledAppContainer } from './app-container-styled';
 import { Footer } from './footer';
 import { Header } from './header';
 
-const AppContainer = ({ children }) => {
+const AppContainer = () => {
   return (
     <StyledAppContainer>
       <Header />
-      <Main>{children}</Main>
+      <Main>
+        <Outlet />
+      </Main>
       <Footer />
     </StyledAppContainer>
   );
