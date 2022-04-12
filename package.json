@@ -9,8 +9,13 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.19.5",
     "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "csv": "^6.0.5",
+    "express": "^4.17.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
+    "morgan": "^1.10.0",
+    "open": "^8.4.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-query": "^3.34.19",
@@ -24,7 +29,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "newstart": "node ./server/start.js"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json}": [
