@@ -35,14 +35,15 @@ export const StyledInputText = styled.div`
 export const StyledInput = styled(Input.Search)`
   input {
     width: 400px;
-    height: 40px;
+    height: 35px;
     border-radius: 0;
     border: 0;
+    padding: 5px;
   }
 
   button {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-left: 2px;
 
     &:hover {

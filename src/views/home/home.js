@@ -17,7 +17,7 @@ const Home = () => {
         <StyledInput
           onSearch={(value) => console.log(value)}
           size="large"
-          placeholder="  Enter your address"
+          placeholder="Enter your address"
           enterButton
         />
       </InputWrapper>
